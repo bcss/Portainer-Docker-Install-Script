@@ -7,7 +7,7 @@ Each script offers different levels of flexibility, automation, and safety.
 
 ## 📊 Script Comparison
 
-| Feature | `v1` Basic Installer | `v2` Interactive Manager | `v3_final` Auto+Enhanced |
+| Feature | `v1` Basic Installer | `v2` Interactive Manager | `v3` Auto+Enhanced |
 | --- | --- | --- | --- |
 | Simple One-Time Installation | ✅   | ✅   | ✅   |
 | Docker Compose Plugin Check | ✅   | ❌   | ✅   |
