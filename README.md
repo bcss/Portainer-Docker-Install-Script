@@ -1,22 +1,25 @@
 # Portainer Docker Setup Scripts
 
-Two alternative Bash scripts for managing Portainer (Docker management GUI) installations with different levels of functionality.
+Three Bash scripts to install and manage [Portainer](https://www.portainer.io/) — a lightweight management UI for Docker.  
+Each script offers different levels of flexibility, automation, and safety.
 
-## Script Comparison
+## 📊 Script Comparison
 
-| Feature                          | `portainer_setup_v1.sh` | `portainer_setup_v2.sh` |
-|----------------------------------|------------------------|-------------------------|
-| Basic Installation               | ✅                     | ✅                      |
-| Docker Compose Plugin Check      | ✅                     | ❌                      |
-| Automatic Docker Installation    | ❌                     | ❌                      |
-| Custom Installation Path         | ❌                     | ✅                      |
-| Custom Port Configuration        | ❌                     | ✅                      |
-| Existing Installation Detection  | ❌                     | ✅                      |
-| Reinstall Functionality          | ❌                     | ✅                      |
-| Complete Uninstall Option        | ❌                     | ✅                      |
-| Interactive Menu                 | ❌                     | ✅                      |
-| Color-coded Output               | ❌                     | ✅                      |
-| Safety Confirmations             | ❌                     | ✅                      |
+| Feature                                     | `v1` Basic Installer | `v2` Interactive Manager | `v3_final` Auto+Enhanced |
+|--------------------------------------------|-----------------------|--------------------------|---------------------------|
+| Simple One-Time Installation               | ✅                    | ✅                       | ✅                        |
+| Docker Compose Plugin Check                | ✅                    | ❌                       | ✅                        |
+| Automatic Docker Installation              | ❌                    | ❌                       | ✅                        |
+| Custom Installation Path                   | ❌                    | ✅                       | ✅                        |
+| Custom Port Configuration                  | ❌                    | ✅                       | ✅                        |
+| Existing Installation Detection            | ❌                    | ✅                       | ✅                        |
+| Reinstall Functionality                    | ❌                    | ✅                       | ✅                        |
+| Complete Uninstall Option                  | ❌                    | ✅                       | ✅                        |
+| Interactive Menu                           | ❌                    | ✅                       | ✅                        |
+| Color-coded Output                         | ❌                    | ✅                       | ✅                        |
+| Safety Confirmations                       | ❌                    | ✅                       | ✅                        |
+| Graceful Interrupt Handling (`Ctrl+C`)     | ❌                    | ❌                       | ✅                        |
+| OS Detection (Ubuntu 22.04 only supported) | ❌                    | ❌                       | ✅                        |
 
 ## portainer_setup_v1.sh - Basic Installer
 
