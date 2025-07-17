@@ -1,6 +1,3 @@
-# Portainer-Docker-Install-Script
-Contains Portainer Docker implementation scripts
-
 # Portainer Setup Scripts
 
 Two alternative Bash scripts for managing Portainer (Docker management GUI) installations with different levels of functionality.
